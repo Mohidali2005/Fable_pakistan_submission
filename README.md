@@ -40,6 +40,28 @@ python3 scripts/generate_production_data_standardized.py --output FABLE_Pakistan
 
 Leave off `--output` and it'll save under the original filename automatically.
 
+### `csvs/` — the flat-file versions
+
+The same underlying data as `excel_files/`, but as plain CSVs where a flat table makes more sense
+than a multi-sheet workbook:
+
+- **`FABLE_Pakistan_Concordance.csv`** (Deliverable #3) — the CSV form of the concordance table.
+- **`FABLE_Pakistan_Production_Standardized.csv`** (Deliverable #1) — all 42 production
+  commodities combined into one flat table.
+- **`FABLE_Trade_Production_Joined.csv`** (Deliverable #2) — the national production/trade
+  balance table.
+- **`FABLE_Trade_Aggregated.csv`** — trade rolled up into FABLE-commodity totals.
+- **`FABLE_Pakistan_Trade_Raw.csv`** — the raw Comtrade pull, one row per HS code, year, and flow.
+
+### `csv_scripts/` — how to regenerate the CSVs
+
+Same idea as `scripts/`: one script per CSV in `csvs/`, each with the finished file baked in as
+base64, verified byte-for-byte with SHA256, no dependencies beyond the Python standard library.
+
+```bash
+python3 csv_scripts/generate_concordance_csv.py --output FABLE_Pakistan_Concordance.csv
+```
+
 ### `report/` — the write-up
 
 - **`FABLE_Pakistan_Project_Report.pdf`** — the project report: what was built, how, and what

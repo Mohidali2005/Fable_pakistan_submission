@@ -1,0 +1,531 @@
+Pakistan_Crop_Name,FAO_Item_Name,FAO_Code,HS_Code,HS_Description,FABLE_Category,Action,Conv_Factor
+Wheat,Wheat,15,1001.10,Durum wheat (pre-2012 code),CEREALS,INCLUDE,1.00
+Wheat,Wheat,15,1001.90,Wheat other than durum (pre-2012 code),CEREALS,INCLUDE,1.00
+Wheat,Wheat,15,1001.11,"Durum wheat, seed",CEREALS,INCLUDE,1.00
+Wheat,Wheat,15,1001.19,"Durum wheat, other",CEREALS,INCLUDE,1.00
+Wheat,Wheat,15,1001.91,"Common/spelt wheat, seed",CEREALS,INCLUDE,1.00
+Wheat,Wheat,15,1001.99,"Common/spelt wheat, other",CEREALS,INCLUDE,1.00
+Wheat,Wheat and meslin flour,16,1101.00,Wheat flour,CEREALS,CONVERT,1.03
+Basmati Rice + IRRI Rice,"Rice, paddy",27,1006.10,Rice in husk (paddy/rough),CEREALS,INCLUDE,1.00
+Basmati Rice + IRRI Rice,Husked rice,28,1006.20,Husked (brown) rice,CEREALS,CONVERT,1.25
+Basmati Rice + IRRI Rice,Rice; milled,31,1006.30,Semi-milled or wholly milled rice,CEREALS,CONVERT,1.49
+Basmati Rice + IRRI Rice,Rice; broken,32,1006.40,Broken rice,CEREALS,CONVERT,1.49
+Basmati Rice + IRRI Rice,"Rice, paddy",27,1102.30,Rice flour,CEREALS,EXCLUDE,—
+Maize,Maize,56,1005.10,Maize (corn) — seed,CEREALS,INCLUDE,1.00
+Maize,Maize,56,1005.90,Maize (corn) — other,CEREALS,INCLUDE,1.00
+Maize,Flour of maize,58,1102.20,Maize flour,CEREALS,CONVERT,1.12
+Bajra,Millet,79,1008.20,Millet (pre-2012 code),CEREALS,INCLUDE,1.00
+Bajra,Millet,79,1008.21,Millet — seed,CEREALS,INCLUDE,1.00
+Bajra,Millet,79,1008.29,Millet — other,CEREALS,INCLUDE,1.00
+Jowar,Sorghum,83,1007.00,Grain sorghum (pre-2012 code),CEREALS,INCLUDE,1.00
+Jowar,Sorghum,83,1007.10,Grain sorghum — seed,CEREALS,INCLUDE,1.00
+Jowar,Sorghum,83,1007.90,Grain sorghum — other,CEREALS,INCLUDE,1.00
+Barley,Barley,44,1003.00,Barley (pre-2012 code),CEREALS,INCLUDE,1.00
+Barley,Barley,44,1003.10,Barley — seed,CEREALS,INCLUDE,1.00
+Barley,Barley,44,1003.90,Barley — other,CEREALS,INCLUDE,1.00
+Barley,Malt; whether or not roasted,49,1107.10,Malt (not roasted),CEREALS,CONVERT,1.43
+Not grown,Oats,75,1004.00,Oats (pre-2012 code),CEREALS,INCLUDE,1.00
+Not grown,Oats,75,1004.10,Oats — seed,CEREALS,INCLUDE,1.00
+Not grown,Oats,75,1004.90,Oats — other,CEREALS,INCLUDE,1.00
+Not grown,Rye,71,1002.10,Rye — seed,CEREALS,ZERO/N/A,—
+Not grown,Rye,71,1002.90,Rye — other,CEREALS,ZERO/N/A,—
+No other cereals in Pakistan,Other cereals,—,1008.10,Buckwheat,CEREALS,ZERO/N/A,—
+No other cereals in Pakistan,Other cereals,—,1008.50,Quinoa,CEREALS,ZERO/N/A,—
+Sugarcane,Sugar cane,156,1212.93,Sugar cane (raw),SUGAR,INCLUDE,1.00
+Sugar beet,Sugar beet,157,1212.91,Sugar beet,SUGAR,INCLUDE,1.00
+Derived from sugarcane,"Sugar, raw",162,1701.12,"Beet sugar, raw",SUGAR,EXCLUDE,—
+Derived from sugarcane,"Sugar, raw",162,1701.11,Raw cane sugar (pre-2012 code),SUGAR,INCLUDE,1.00
+Derived from sugarcane,"Sugar, raw",162,1701.13,"Cane sugar, raw (for refining)",SUGAR,INCLUDE,1.00
+Derived from sugarcane,"Sugar, raw",162,1701.14,Other raw cane sugar,SUGAR,INCLUDE,1.00
+Derived from sugarcane,Refined sugar,164,1701.91,Refined beet sugar,SUGAR,CONVERT,1.09
+Derived from sugarcane,Refined sugar,164,1701.99,Other refined sugar,SUGAR,CONVERT,1.09
+Derived from sugarcane,"Sugar, raw",162,1703.10,Cane molasses,SUGAR,EXCLUDE,—
+Cotton Lint,Cotton lint,767,5201.00,"Cotton, not carded or combed",FIBERINDUS,INCLUDE,1.00
+Cotton Lint,Cotton lint,767,5202.10,Cotton; yarn waste (including thread waste),FIBERINDUS,EXCLUDE,—
+Cotton Lint,Cotton lint,767,5202.91,Cotton; garnetted stock waste,FIBERINDUS,EXCLUDE,—
+Cotton Lint,Cotton lint,767,5202.99,Cotton; waste other than garnetted stock and yarn (including thread) waste,FIBERINDUS,EXCLUDE,—
+Cotton Lint,Cotton lint,767,5203.00,"Cotton, carded or combed",FIBERINDUS,INCLUDE,1.00
+Cotton Lint,Cotton lint,767,5205.00,Cotton yarn (not retail),FIBERINDUS,EXCLUDE,—
+Jute,Jute; raw or retted,780,5303.10,"Jute and textile bast fibres, raw/retted",FIBERINDUS,INCLUDE,1.00
+Jute,Jute; raw or retted,780,5303.90,Other jute fibres,FIBERINDUS,INCLUDE,1.00
+Not grown,Natural rubber,836,4001.10,Natural rubber latex,FIBERINDUS,INCLUDE,1.00
+Not grown,Natural rubber,836,4001.21,"Natural rubber, smoked sheets (RSS)",FIBERINDUS,INCLUDE,1.00
+Not grown,Natural rubber,836,4001.22,Technically specified natural rubber (TSNR),FIBERINDUS,INCLUDE,1.00
+Not grown,Natural rubber,836,4001.29,Other natural rubber,FIBERINDUS,INCLUDE,1.00
+"Abaca, sisal — not in Pakistan",Hard fibers,—,5305.00,"Coir, abaca, sisal, other veg fibres",FIBERINDUS,ZERO/N/A,—
+Not grown,Soft fibers,—,5301.00,"Flax, raw or processed",FIBERINDUS,ZERO/N/A,—
+Seed Cotton,Cotton seed,329,1207.21,"Cotton seeds, whether or not broken",OLSOIL,INCLUDE,1.00
+Seed Cotton,Cotton seed,329,1207.29,"Cotton seeds, other than for sowing (crushing/feed)",OLSOIL,INCLUDE,1.00
+Rapeseed & Mustard (R&M Seed),Rapeseed + Mustard (R&M),270,1205.10,Low erucic acid rape/colza seeds (incl. canola),OLSOIL,INCLUDE,1.00
+Rapeseed & Mustard (R&M Seed),Rapeseed + Mustard (R&M),270,1205.90,Other rape or colza seeds,OLSOIL,INCLUDE,1.00
+Rapeseed & Mustard (R&M Seed),Rapeseed + Mustard (R&M),270,1205.00,Rape or colza seeds (pre-2002 code),OLSOIL,INCLUDE,1.00
+Rapeseed & Mustard (R&M Seed),Mustard seed,292,1207.50,Mustard seeds (Sarsoon),OLSOIL,INCLUDE,1.00
+Sesamum,Sesame seed,289,1207.40,Sesamum seeds,OLSOIL,INCLUDE,1.00
+Sunflower,Sunflower seed,267,1206.00,Sunflower seeds,OLSOIL,INCLUDE,1.00
+Not grown,Oil palm fruit,254,1207.10,Palm nuts and kernels,OLSOIL,INCLUDE,1.00
+Emerging,Olives,260,0709.92,"Olives, fresh or chilled",OLSOIL,INCLUDE,1.00
+Emerging,Olives,260,0711.20,"Olives, provisionally preserved",OLSOIL,ZERO/N/A,—
+Raw material (soybean) unavailable,Soya bean oil,237,1507.10,"Soya-bean oil, crude",OLSOIL,INCLUDE,1.00
+Raw material (soybean) unavailable,Soya bean oil,237,1507.90,"Soya-bean oil, refined/fractions",OLSOIL,INCLUDE,1.00
+Derived from coconut,Coconut oil,252,1513.11,"Coconut (copra) oil, crude",OLSOIL,INCLUDE,1.00
+Derived from coconut,Coconut oil,252,1513.19,"Coconut (copra) oil, refined",OLSOIL,INCLUDE,1.00
+Derived from coconut,Coconut oil,252,1513.21,"Palm kernel/babassu oil, crude",OLSOIL,EXCLUDE,—
+Derived from groundnut,Groundnut oil,244,1508.10,"Ground-nut oil, crude",OLSOIL,INCLUDE,1.00
+Derived from groundnut,Groundnut oil,244,1508.90,"Ground-nut oil, refined/fractions",OLSOIL,INCLUDE,1.00
+Not produced,Palm oil,257,1511.10,"Palm oil, crude",OLSOIL,INCLUDE,1.00
+Not produced,Palm oil,257,1511.90,"Palm oil, refined fractions",OLSOIL,INCLUDE,1.00
+Not produced,Palm oil,257,1513.21,"Palm kernel oil, crude",OLSOIL,EXCLUDE,—
+Not produced,Palm oil,257,1513.29,"Palm kernel oil, refined",OLSOIL,EXCLUDE,—
+Linseed + Safflower + Castorseed,Sunflower-seed oil; crude;Safflower-seed oil; crude,268;281,1512.11,"Sunflower/safflower oil, crude",OLSOIL,INCLUDE,1.00
+Linseed + Safflower + Castorseed,Sunflower-seed oil; crude;Safflower-seed oil; crude,268;281,1512.19,"Sunflower/safflower oil, refined",OLSOIL,INCLUDE,1.00
+Linseed + Safflower + Castorseed,Rapeseed or canola oil; crude,271,1514.11,"Low erucic rape/mustard oil, crude",OLSOIL,INCLUDE,1.00
+Linseed + Safflower + Castorseed,Rapeseed or canola oil; crude,271,1514.19,"Low erucic rape/mustard oil, refined",OLSOIL,INCLUDE,1.00
+Linseed + Safflower + Castorseed,Oil of linseed,334,1515.11,"Linseed oil, crude",OLSOIL,INCLUDE,1.00
+Linseed + Safflower + Castorseed,Oil of linseed,334,1515.19,"Linseed oil, refined",OLSOIL,INCLUDE,1.00
+Derived from seed cotton,Cake of cottonseed,332,2306.10,Oilcake from cottonseed,OLSCAKE,INCLUDE,1.00
+Derived from groundnut,Groundnut cake,245,2305.00,Oilcake and residues from groundnuts,OLSCAKE,INCLUDE,1.00
+Derived from rapeseed,Cake of rapeseed,272,2306.41,Oilcake from low erucic rapeseed,OLSCAKE,INCLUDE,1.00
+Derived from rapeseed,Cake of rapeseed,272,2306.49,Oilcake from other rapeseed,OLSCAKE,INCLUDE,1.00
+Derived from other oilseeds,Other oilseed cakes,—,2304.00,Oilcake from soybean,OLSCAKE,EXCLUDE,—
+Derived from other oilseeds,Cake of linseed,335,2306.20,Oilcake from linseed,OLSCAKE,INCLUDE,1.00
+Derived from other oilseeds,Cake of sesame seed;Cake of safflowerseed;Cake of sunflower seed,291;282;269,2306.90,Oilcake from sesame/safflower/sunflower,OLSCAKE,INCLUDE,1.00
+Gram,Chick peas; dry,191,0713.20,"Chickpeas (garbanzos), dried shelled",PULSES,INCLUDE,1.00
+Mung Bean,Beans; dry,176,0713.31,"Mung beans (Vigna radiata), dried",PULSES,INCLUDE,1.00
+Masoor (lentil) + Mash Bean,"Lentils, dry",201,0713.40,"Lentils, dried shelled",PULSES,INCLUDE,1.00
+Masoor (lentil) + Mash Bean,Beans; dry,176,0713.32,Small red/adzuki beans,PULSES,INCLUDE,1.00
+Masoor (lentil) + Mash Bean,Beans; dry,176,0713.39,Other Vigna beans (mash/urad dal),PULSES,INCLUDE,1.00
+Peas / Garden Peas,"Peas, dry",187,0713.10,"Peas (pisum sativum), dried shelled",PULSES,INCLUDE,1.00
+Peas / Garden Peas,"Peas, dry",187,0708.10,"Peas, fresh or chilled",PULSES,EXCLUDE,—
+Guarseed + Mattar (dry peas),Broad beans and horse beans; dry,181,0713.50,"Broad beans / horse beans, dried",PULSES,INCLUDE,1.00
+Guarseed + Mattar (dry peas),Pigeon peas; dry,197,0713.60,Pigeon peas (cajanus cajan),PULSES,INCLUDE,1.00
+Guarseed + Mattar (dry peas),Other pulses n.e.c.,211,0713.90,"Other leguminous vegetables, dried",PULSES,INCLUDE,1.00
+Guarseed,—,—,1207.99,Other oil seeds/oleaginous fruits (incl. guar),PULSES,INCLUDE,1.00
+Guar gum,—,—,1302.32,Mucilages and thickeners of guar seeds,PULSES,CONVERT,3.45
+Groundnut,Groundnuts,242,1202.10,Ground-nuts; in shell,OLSOIL,INCLUDE,1.00
+Groundnut,Groundnuts,242,1202.41,"Ground-nuts; other than seed, in shell",OLSOIL,INCLUDE,1.00
+Groundnut,Groundnuts; shelled,243,1202.20,"Ground-nuts; shelled, whether or not broken",OLSOIL,CONVERT,1.25
+Groundnut,Groundnuts; shelled,243,1202.42,"Ground-nuts; other than seed, shelled, whether or not broken",OLSOIL,CONVERT,1.25
+Soybean,Soybeans,236,1201.00,Soya beans (pre-2012 code),PULSES,INCLUDE,1.00
+Soybean,Soybeans,236,1201.10,Soya beans — seed,PULSES,INCLUDE,1.00
+Soybean,Soybeans,236,1201.90,Soya beans — other,PULSES,INCLUDE,1.00
+Potato,Potatoes,116,0701.10,"Potatoes, seed",ROOTS,INCLUDE,1.00
+Potato,Potatoes,116,0701.90,"Potatoes, fresh or chilled",ROOTS,INCLUDE,1.00
+Potato,Potatoes,116,2004.10,"Potatoes, frozen (prepared)",ROOTS,EXCLUDE,—
+Potato,Flour; meal; powder; flakes; granules and pellets of potatoes,117,1108.13,Potato starch,ROOTS,CONVERT,6.67
+Sweet Potato,Sweet potatoes,122,0714.20,Sweet potatoes,ROOTS,INCLUDE,1.00
+Not grown,Cassava,125,0714.10,"Cassava, fresh or dried",ROOTS,ZERO/N/A,—
+Not grown,Yams,137,0714.90,Other roots/tubers with high starch,ROOTS,ZERO/N/A,—
+No other tubers in Pakistan,Other tubers,—,0714.99,Other roots/tubers,ROOTS,ZERO/N/A,—
+Apple,Apples,515,0808.10,"Apples, fresh",FRUVEG,INCLUDE,1.00
+Banana,Bananas,486,0803.10,"Plantains, fresh or dried",FRUVEG,EXCLUDE,—
+Banana,Bananas,486,0803.00,"Bananas, including plantains (pre-2012 code)",FRUVEG,INCLUDE,1.00
+Banana,Bananas,486,0803.90,"Bananas, fresh or dried",FRUVEG,INCLUDE,1.00
+Coconut,"Coconuts, desiccated",250,0801.11,"Coconuts, desiccated",FRUVEG,INCLUDE,1.00
+Coconut,Coconuts,249,0801.12,"Coconuts, fresh in shell",FRUVEG,INCLUDE,1.00
+Coconut,Coconuts,249,1513.11,Coconut oil,FRUVEG,EXCLUDE,—
+Dates / Khajoor,Dates,577,0804.10,"Dates, fresh or dried",FRUVEG,INCLUDE,1.00
+Grapes,Grapes,560,0806.10,"Grapes, fresh",FRUVEG,INCLUDE,1.00
+Grapes,Raisins,561,0806.20,"Grapes, dried (raisins)",FRUVEG,CONVERT,2.86
+Not tabulated,Grapefruit,507,0805.40,"Grapefruit, incl. pomelos",FRUVEG,INCLUDE,1.00
+Not tabulated,Lemons/limes,497,0805.50,Lemons and limes,FRUVEG,INCLUDE,1.00
+Onion,"Onions, dry",403,0703.10,"Onions and shallots, fresh or chilled",FRUVEG,INCLUDE,1.00
+Onion,"Onions, dry",403,0703.20,"Garlic, fresh or chilled",FRUVEG,EXCLUDE,—
+Onion,—,—,0712.20,"Onions, dried",FRUVEG,CONVERT,9.00
+Citrus (Kino dominant),Oranges,490,0805.10,"Oranges, fresh or dried",FRUVEG,INCLUDE,1.00
+Citrus (Kino dominant),"Tangerines, mandarins, clementines",495,0805.20,"Mandarins, tangerines, kino",FRUVEG,INCLUDE,1.00
+Citrus (Kino dominant),"Tangerines, mandarins, clementines",495,0805.21,"Mandarins, tangerines, satsumas",FRUVEG,INCLUDE,1.00
+Citrus (Kino dominant),"Tangerines, mandarins, clementines",495,0805.22,Clementines,FRUVEG,INCLUDE,1.00
+Citrus (Kino dominant),"Tangerines, mandarins, clementines",495,0805.29,"Tangelos, wilkings and similar citrus hybrids",FRUVEG,INCLUDE,1.00
+Not grown,Pineapples,574,0804.30,"Pineapples, fresh or dried",FRUVEG,ZERO/N/A,—
+Not grown,Plantains,489,0803.10,Plantains,FRUVEG,INCLUDE,1.00
+Tomatoes,Tomatoes,388,0702.00,"Tomatoes, fresh or chilled",FRUVEG,INCLUDE,1.00
+Tomatoes,Tomatoes,388,2002.10,"Tomatoes, prepared/canned",FRUVEG,EXCLUDE,—
+Malta + Kino sub-types + Lemon,Other citrus fruit; n.e.c.,512,0805.90,"Other citrus fruit, fresh or dried",FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Mangoes; guavas and mangosteens,571,0804.50,"Guavas, mangoes, mangosteens",FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Other fruits,—,0804.40,Avocados,FRUVEG,EXCLUDE,—
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Pears,521,0808.30,"Pears, fresh",FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Apricots,526,0809.10,"Apricots, fresh",FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Cherries,531,0809.29,Cherries (other than sour),FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Peaches and nectarines,534,0809.30,"Peaches, incl. nectarines",FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Plums and sloes,536,0809.40,Plums and sloes,FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Raspberries,547,0810.20,Raspberries/blackberries/mulberries,FRUVEG,INCLUDE,1.00
+Guava+Peach+Apricot+Plum+Pomegranate+Pear+Cherry+Fig+Strawberry+Mango+Ber+Loquat+Papaya+Chikoo+Melons+others,Other fruits; n.e.c.,619,0810.90,"Other fruit, fresh (pomegranate, ber, loquat)",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,—,—,0703.20,"Garlic, fresh",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Cauliflowers and broccoli,393,0704.10,"Vegetables, brassica; cauliflowers and broccoli, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,—,—,0704.20,"Vegetables, brassica; brussel sprouts, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,—,—,0704.90,"Vegetables, brassica; edible, n.e.c. in heading no. 0704, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Carrots and turnips,426,0706.10,"Vegetables, root; carrots and turnips, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,—,—,0706.90,"Vegetables, root; salad beetroot, salsify, celeric, radishes and similar edible roots, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Cucumbers and gherkins,397,0707.00,Cucumbers and gherkins,FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Artichokes,366,0709.10,Globe artichokes,FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Asparagus,367,0709.20,"Vegetables; asparagus, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Eggplants (aubergines),399,0709.30,"Vegetables; aubergines, (e.g. plants), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,—,—,0709.40,"Vegetables; celery (other than celeriac), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.51,"Vegetables; mushrooms of the genus Agaricus, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.52,"Vegetables; mushrooms of the genus Boletus, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.53,"Vegetables; mushrooms of the genus Cantharellus, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.54,"Vegetables; shiitake mushrooms (Lentinus edodes), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.55,"Vegetables; matsutake mushrooms (Tricholoma matsutake, Tricholoma magnivelare, Tricholoma anatolicum, Tricholoma dulciolens, Tricholoma caligatum), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.56,"Vegetables; truffles (Tuber spp.), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Mushrooms and truffles,449,0709.59,"Vegetables; truffles and mushrooms n.e.c. in heading 0709, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Chillies and peppers; green (Capsicum spp. and Pimenta spp.),401,0709.60,"Vegetables; fruits of the genus capsicum or of the genus pimenta, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Spinach,373,0709.70,"Vegetables; spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Other vegetables; fresh n.e.c.,463,0709.90,Other,FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Artichokes,366,0709.91,"Vegetables; globe artichokes, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Pumpkins; squash and gourds,394,0709.93,"Vegetables; pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Other vegetables; fresh n.e.c.,463,0709.99,"Vegetables; edible, n.e.c. in chapter 07, fresh or chilled",FRUVEG,INCLUDE,1.00
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Other vegetables,—,0702.00,Tomatoes,FRUVEG,EXCLUDE,—
+Lady Finger+Brinjal+Bitter Gourd+Bottle Gourd+Pumpkin+Cucumber+Radish+Turnip+Carrot+Spinach+Cauliflower+Cabbage+Tinda+others,Other vegetables,—,0712.20,Dried onion,FRUVEG,EXCLUDE,—
+Walnut + Almond + Pistachio,Almonds; in shell,221,0802.11,"Almonds, in shell",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Almonds; shelled,231,0802.12,"Almonds, shelled",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Walnuts; in shell,222,0802.31,"Walnuts, in shell",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Walnuts; shelled,232,0802.32,"Walnuts, shelled",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Pistachios; in shell,223,0802.50,Pistachios (pre-2012 code),NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Pistachios; in shell,223,0802.51,"Pistachios, in shell",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Pistachios; in shell,223,0802.52,"Pistachios, shelled",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Other nuts (excluding wild edible nuts and groundnuts); in shell; n.e.c.,234,0802.90,"Other tree nuts (pine, macadamia)",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,—,—,0802.91,"Pine nuts, in shell",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,—,—,0802.92,"Pine nuts, shelled",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Other nuts (excluding wild edible nuts and groundnuts); in shell; n.e.c.,234,0802.99,"Other nuts n.e.c., fresh or dried",NUTS,INCLUDE,1.00
+Walnut + Almond + Pistachio,Nuts,—,0801.10,Coconuts (desiccated),NUTS,EXCLUDE,—
+Tobacco,"Tobacco, unmanuf.",826,2401.10,"Tobacco, not stemmed",BEVSPICES,INCLUDE,1.00
+Tobacco,"Tobacco, unmanuf.",826,2401.20,"Tobacco, partly/wholly stemmed",BEVSPICES,INCLUDE,1.00
+Tobacco,"Tobacco, unmanuf.",826,2401.30,Tobacco refuse,BEVSPICES,INCLUDE,1.00
+Tobacco,"Tobacco, unmanuf.",826,2402.20,Cigarettes containing tobacco,BEVSPICES,EXCLUDE,—
+Negligible,Tea,667,0902.10,"Green tea (not fermented), ≤3kg",BEVSPICES,INCLUDE,1.00
+Negligible,Tea,667,0902.20,"Green tea, >3kg",BEVSPICES,INCLUDE,1.00
+Negligible,Tea,667,0902.30,"Black tea (fermented), ≤3kg",BEVSPICES,INCLUDE,1.00
+Negligible,Tea,667,0902.40,"Black tea, >3kg",BEVSPICES,INCLUDE,1.00
+Not grown,Cocoa beans,661,1801.00,"Cocoa beans, whole or broken",BEVSPICES,INCLUDE,1.00
+Not grown,Cocoa paste not defatted,662,1803.10,"Cocoa paste, not defatted",BEVSPICES,CONVERT,1.25
+Not grown,Cocoa paste not defatted,662,1803.20,"Cocoa paste, wholly/partly defatted",BEVSPICES,CONVERT,1.18
+Not grown,Cocoa butter; fat and oil,664,1804.00,"Cocoa butter, fat and oil",BEVSPICES,CONVERT,1.33
+Not grown,Cocoa powder and cake,665,1805.00,"Cocoa powder, not sweetened",BEVSPICES,CONVERT,1.18
+Not grown,Cocoa beans,661,1806.10,Cocoa powder with added sugar,BEVSPICES,EXCLUDE,—
+Not grown,Cocoa beans,661,1806.31,Chocolate in blocks/slabs,BEVSPICES,EXCLUDE,—
+Coriander + Turmeric + Ginger,Chillies and peppers; dry (Capsicum spp.; Pimenta spp.); raw,689,0904.20,"Chillies (capsicum/pimenta), dried (pre-2012 code)",BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Chillies and peppers; dry (Capsicum spp.; Pimenta spp.); raw,689,0904.21,"Chillies (capsicum/pimenta), dried, whole",BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Cloves (whole stems); raw,698,0907.00,Cloves (pre-2012 code),BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Cloves (whole stems); raw,698,0907.10,Cloves,BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Anise; badian; coriander; cumin; caraway; fennel and juniper berries; raw,711,0909.20,Coriander seeds (pre-2012 code),BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Anise; badian; coriander; cumin; caraway; fennel and juniper berries; raw,711,0909.21,Coriander seeds,BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Ginger; raw,720,0910.10,Ginger (pre-2012 code),BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,Ginger; raw,720,0910.11,"Ginger, fresh or dried",BEVSPICES,INCLUDE,1.00
+Coriander + Turmeric + Ginger,—,—,0910.30,Turmeric (curcuma),BEVSPICES,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.11,"Fish; fresh or chilled, trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster), excluding fillets, fish meat of 0304, and edible fish offal of 0302.9",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.12,"Pacific salmon (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus), Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.13,"Fish; fresh or chilled, Pacific salmon (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou, Oncorhynchus rhodurus), not fillets, meat of 0304, and edible fish offal of 0302.9",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.14,"Fish; fresh or chilled, Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.19,"Fish; fresh or chilled, salmonidae, n.e.c. in item no. 0302.1, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.21,"Fish; fresh or chilled, halibut (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.22,"Fish; fresh or chilled, plaice (Pleuronectes platessa), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.23,"Fish; fresh or chilled, sole (Solea spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.24,"Fish; fresh or chilled, turbots (Psetta maxima, Scophthalmidae), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.29,"Fish; fresh or chilled, flat fish, n.e.c. in item no. 0302.2, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.31,"Fish; fresh or chilled, albacore or longfinned tunas (Thunnus alalunga), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.32,"Fish; fresh or chilled, yellowfin tunas (Thunnus albacares), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.33,"Fish; fresh or chilled, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.34,"Fish; fresh or chilled, bigeye tunas (Thunnus obesus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.35,"Fish; fresh or chilled, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.36,"Fish; fresh or chilled, southern bluefin tunas (Thunnus maccoyii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.39,"Fish; fresh or chilled, tuna, n.e.c. in item no. 0302.3, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.40,"Herrings (Clupea harengus, Clupea pallasii), excluding livers and roes",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.41,"Fish; fresh or chilled, herrings (Clupea harengus, Clupea pallasii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.42,"Fish; fresh or chilled, anchovies (Engraulis spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.43,"Fish; fresh or chilled, sardines (Sardina pilchardus, Sardinops spp.), sardinella (Sardinella spp.), brisling or sprats (Sprattus sprattus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.44,"Fish; fresh or chilled, mackerel (Scomber scombrus, Scomber australasicus, Scomber japonicus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.45,"Fish; fresh or chilled, jack and horse mackerel (Trachurus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.46,"Fish; fresh or chilled, cobia (Rachycentron canadum), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.47,"Fish; fresh or chilled, swordfish (Xiphias gladius), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.49,"Fish; fresh or chilled, n.e.c. in item no. 0302.4, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.50,"Cod (Gadus morhua, Gadus ogac, Gadus macrocephalus), excluding livers and roes",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.51,"Fish; fresh or chilled, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.52,"Fish; fresh or chilled, haddock (Melanogrammus aeglefinus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.53,"Fish; fresh or chilled, coalfish (Pollachius virens), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.54,"Fish; fresh or chilled, hake (Merluccius spp., Urophycis spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.55,"Fish; fresh or chilled, Alaska pollock (Theragra chalcogramma), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.56,"Fish; fresh or chilled, blue whitings (Micromesistius poutassou, Micromesistius australis),excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.59,"Fish; fresh or chilled, n.e.c. in item no. 0302.5, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.61,"Sardines (Sardina pilchardus, Sardinops spp.), sardinella (Sardinella spp.), brisling or sprats (Sprattus sprattus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.62,Haddock (Melanogrammus aeglefinus),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.63,Coalfish (Pollachius virens),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.64,"Mackerel (Scomber scombrus, Scomber australasicus, Scomber japonicus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.65,Dogfish and other sharks,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.66,Eels (Anguilla spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.67,Swordfish (Xiphias gladius),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.68,Toothfish (Dissostichus spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.69,Other,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.70,Livers and roes,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.71,"Fish; fresh or chilled, tilapias (Oreochromis spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.72,"Fish; fresh or chilled, catfish (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.73,"Fish; fresh or chilled, Carp (as specified by the WCO.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.74,"Fish; fresh or chilled, eels (Anguilla spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.79,"Fish; fresh or chilled, Nile perch (Lates niloticus) and snakeheads (Channa spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.81,"Fish; fresh or chilled, dogfish and other sharks, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.82,"Fish; fresh or chilled, rays and skates (Rajidae), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.83,"Fish; fresh or chilled, toothfish (Dissostichus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.84,"Fish; fresh or chilled, seabass (Dicentrarchus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.85,"Fish; fresh or chilled, seabream (Sparidae), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.89,"Fish; fresh or chilled, n.e.c. in heading 0302, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.90,Livers and roes,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.91,"Fish; fresh or chilled, livers, roes and milt",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.92,"Fish; fresh or chilled, shark fins",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0302.99,"Fish; fresh or chilled, fish fins (other than shark fins), heads, tails, maws and other edible fish offal",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.10,"Pacific salmon (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus), excluding livers and roes",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.11,"Fish; frozen, Pacific salmon, sockeye salmon (red salmon) (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.12,"Fish; frozen, Pacific salmon (Oncorhynchus gorbuscha/keta/tschawytscha/ kisutch/masou/rhodurus) other than sockeye salmon (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.13,"Fish; frozen, Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.14,"Fish; frozen, trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster), excluding fillets, meat of 0304, and edible fish offal of 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.19,"Fish; frozen, salmonidae, n.e.c. in item no. 0303.1, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.21,"Trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.22,Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.23,"Fish; frozen, tilapias (Oreochromis spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.24,"Fish; frozen, catfish (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.25,"Fish; frozen, carp (as specified by the WCO), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.26,"Fish; frozen, eels (Anguilla spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.29,"Fish; frozen, Nile perch (Lates niloticus) and snakeheads (Channa spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.31,"Fish; frozen, halibut (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.32,"Fish; frozen, plaice (Pleuronectes platessa), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.33,"Fish; frozen, sole (Solea spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.34,"Fish; frozen, turbots (Psetta maxima, Scophthalmidae), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.39,"Fish; frozen, flat fish, n.e.c. in item no. 0303.3, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.41,"Fish; frozen, albacore or longfinned tunas (Thunnus alalunga), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.42,"Fish; frozen, yellowfin tunas (Thunnus albacares), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.43,"Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.44,"Fish; frozen, bigeye tunas (Thunnus obesus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.45,"Fish; frozen, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.46,"Fish; frozen, southern bluefin tunas (Thunnus maccoyii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.49,"Fish; frozen, tuna, n.e.c. in item no. 0303.4, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.50,"Herrings (Clupea harengus, Clupea pallasii), excluding Livers and roes",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.51,"Fish; frozen, herrings (Clupea harengus, Clupea pallasii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.52,"Cod (Gadus morhua, Gadus ogac, Gadus macrocephalus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.53,"Fish; frozen, sardines (Sardina pilchardus, Sardinops spp.), sardinella (Sardinella spp.), brisling or sprats (Sprattus sprattus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.54,"Fish; frozen, mackerel (Scomber scombrus, Scomber australasicus, Scomber japonicus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.55,"Fish; frozen, jack and horse mackerel (Trachurus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.56,"Fish; frozen, cobia (Rachycentron canadum), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.57,"Fish; frozen, swordfish (Xiphias gladius), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.59,"Fish; frozen, n.e.c. in item no. 0303.5, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.60,"Cod (Gadus morhua, Gadus ogac, Gadus macrocephalus), excluding Livers and roes",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.61,Swordfish (Xiphias gladius),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.62,Toothfish (Dissostichus spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.63,"Fish; frozen, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.64,"Fish; frozen, haddock (Melanogrammus aeglefinus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.65,"Fish; frozen, coalfish (Pollachius virens), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.66,"Fish; frozen, hake (Merluccius spp., Urophycis spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.67,"Fish; frozen, Alaska pollock (Theragra chalcogramma), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.68,"Fish; frozen, blue whitings (Micromesistius poutassou, Micromesistius australis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.69,"Fish; frozen, of Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae, Muraenolepididae, other than cod, haddock, coalfish, hake, Alaska pollack, blue whitings, not fillets, meat of 0304, and edible offal of 0303.9",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.71,"Sardines (Sardina pilchardus, Sardinops spp.), sardinella (Sardinella spp.), brisling or sprats (Sprattus sprattus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.72,Haddock (Melanogrammus aeglefinus),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.73,Coalfish (Pollachius virens),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.74,"Mackerel (Scomber scombrus, Scomber australasicus, Scomber japonicus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.75,Dogfish and other sharks,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.76,Eels (Anguilla spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.77,"Sea bass (Dicentrarchus labrax, Dicentrarchus punctatus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.78,"Hake (Merluccius spp., Urophycis spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.79,Other,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.80,Livers and roes,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.81,"Fish; frozen, dogfish and other sharks, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.82,"Fish; frozen, rays and skates (Rajidae), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.83,"Fish; frozen, toothfish (Dissostichus spp.), excluding fillets, livers, roes, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.84,"Fish; frozen, seabass (Dicentrarchus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.89,"Fish; frozen, n.e.c. in heading 0303, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.90,Livers and roes,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.91,"Fish; frozen, livers, roes and milt",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.92,"Fish; frozen, shark fins",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0303.99,"Fish; frozen, fish fins (other than shark fins), heads, tails, maws and other edible fish offal",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.10,Fresh or chilled :,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.11,Swordfish (Xiphias gladius),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.12,Toothfish (Dissostichus spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.19,Other,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.20,Frozen fillets,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.21,Swordfish (Xiphias gladius),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.22,Toothfish (Dissostichus spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.29,Other,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.31,"Fish fillets; fresh or chilled, tilapias (Oreochromis spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.32,"Fish fillets; fresh or chilled, catfish (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.33,"Fish fillets; fresh or chilled, Nile perch (Lates niloticus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.39,"Fish fillets; fresh or chilled, carp (as specified by the WCO), eels (Anguilla spp.), and snakeheads (Channa spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.41,"Fish fillets; fresh or chilled, salmon, Pacific (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus), Atlantic (Salmo salar), Danube (Hucho hucho)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.42,"Fish fillets; fresh or chilled, trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.43,"Fish fillets; fresh or chilled, flat fish (Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae and Citharidae)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.44,"Fish fillets; fresh or chilled, of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae, and Muraenolepididae",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.45,"Fish fillets; fresh or chilled, swordfish (Xiphias gladius)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.46,"Fish fillets; fresh or chilled, toothfish (Dissostichus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.47,"Fish fillets; fresh or chilled, dogfish and other sharks",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.48,"Fish fillets; fresh or chilled, rays and skates (Rajidae)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.49,"Fish fillets; fresh or chilled, other than fish of heading 0304.4",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.51,"Fish meat, excluding fillets, whether or not minced; fresh or chilled, tilapias, catfish, carp, eels, Nile perch, and snakeheads",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.52,"Fish meat, excluding fillets, whether or not minced; fresh or chilled, salmonidae",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.53,"Fish meat, excluding fillets, whether or not minced; fresh or chilled, of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae, and Muraenolepididae",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.54,"Fish meat, excluding fillets, whether or not minced; fresh or chilled, swordfish (Xiphias gladius)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.55,"Fish meat, excluding fillets, whether or not minced; fresh or chilled, toothfish (Dissostichus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.56,"Fish meat; excluding fillets, whether or not minced; fresh or chilled, dogfish and other sharks",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.57,"Fish meat; excluding fillets, whether or not minced; fresh or chilled, rays and skates (Rajidae)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.59,"Fish meat; excluding fillets, whether or not minced; fresh or chilled, of fish n.e.c. in item no. 0304.5",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.61,"Fish fillets; frozen, tilapias (Oreochromis spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.62,"Fish fillets; frozen, catfish (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.63,"Fish fillets; frozen, Nile Perch (Lates niloticus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.69,"Fish fillets; frozen, carp (Cyprinus/Carassius/Ctenopharyngodon idellus/Hypophthalmichthys/Cirrhinus/Mylopharyngodon piceus/Catla catla/Labeo/Osteochilus hasselti/Leptobarbus hoeveni/Megalobrama), eels (Anguilla) and snakeheads (Channa)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.71,"Fish fillets; frozen, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.72,"Fish fillets; frozen, haddock (Melanogrammus aeglefinus)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.73,"Fish fillets; frozen, coalfish (Pollachius virens)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.74,"Fish fillets; frozen, hake (Merluccius spp., Urophycis spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.75,"Fish fillets; frozen, Alaska pollock (Theragra chalcogramma)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.79,"Fish fillets; frozen, of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae other than cod, haddock, coalfish, hake, and Alaska pollock",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.81,"Fish fillets; frozen, salmon, Pacific (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou, Oncorhynchus rhodurus), Atlantic (Salmo salar), and Danube (Hucho hucho)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.82,"Fish fillets; frozen, trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.83,"Fish fillets; frozen, flat fish (Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae and Citharidae)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.84,"Fish fillets; frozen, swordfish (Xiphias gladius)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.85,"Fish fillets; frozen, toothfish (Dissostichus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.86,"Fish fillets; frozen, herrings (Clupea harengus, Clupea pallasii)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.87,"Fish fillets; frozen, tunas (of the genus Thunnus), skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.88,"Fish fillets; frozen, dogfish, other sharks, rays and skates (Rajidae)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.89,"Fish fillets; frozen, of fish n.e.c. in heading 0304.8",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.90,Other,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.91,"Fish meat, excluding fillets, whether or not minced; frozen, swordfish (Xiphias gladius)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.92,"Fish meat, excluding fillets, whether or not minced; frozen, toothfish (Dissostichus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.93,"Fish meat, excluding fillets, whether or not minced; frozen, tilapias, catfish, carp, eels, Nile perch, and snakeheads",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.94,"Fish meat, excluding fillets, whether or not minced; frozen, Alaska Pollock (Theragra chalcogramma)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.95,"Fish meat, excluding fillets, whether or not minced; frozen, of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae, other than Alaska Pollock (Theragra chalcogramma)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.96,"Fish meat, excluding fillets, whether or not minced; frozen, dogfish and other sharks",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.97,"Fish meat, excluding fillets, whether or not minced; frozen, rays and skates (Rajidae)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0304.99,"Fish meat, excluding fillets, whether or not minced; frozen, n.e.c. in item no. 0304.9",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0305.10,"Fish; flours, meals and pellets, fit for human consumption",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.20,"Fish; livers, roes and milt of fish, dried, smoked, salted or in brine",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.30,"Fish fillets, dried, salted or in brine, but not smoked",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.31,"Fish fillets; dried, salted or in brine, but not smoked, tilapias, catfish, carp, eels, Nile perch, and snakeheads",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.32,"Fish fillets; dried, salted or in brine, but not smoked, of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.39,"Fish fillets; dried, salted or in brine, but not smoked, n.e.c. in item no. 0305.3",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.41,"Fish; smoked, whether or not cooked before or during smoking, salmon, Pacific (Oncorhynchus nerka, gorbuscha, keta, tschawytscha, kisutch, masou, rhodurus), Atlantic (Salmo salar) and Danube (Hucho hucho), includes fillets, but excludes edible fish offal",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.42,"Fish; smoked, whether or not cooked before or during smoking, herrings (Clupea harengus, Clupea pallasii), includes fillets, but excludes edible fish offal",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.43,"Fish; smoked, whether or not cooked before or during smoking, trout (Salmo trutta, Oncorhynchus mykiss/clarki/aguabonita/gilae/apache/chrysogaster), includes fillets, but excludes edible fish offal",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.44,"Fish; smoked, whether or not cooked before or during smoking, tilapias, catfish, carp, eels, Nile perch, and snakeheads, includes fillets, but excludes edible fish offal",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.49,"Fish; smoked, whether or not cooked before or during smoking, n.e.c. in item no. 0305.4, includes fillets, but excludes edible fish offal",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.51,"Fish; dried, whether or not salted but not smoked, other than edible fish offal, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus)",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.52,"Fish; dried, whether or not salted but not smoked, tilapias, catfish, carp, eels, Nile perch, and snakeheads",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.53,"Fish; dried, whether or not salted but not smoked, fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae, other than cod",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.54,"Dried herrings, anchovies, sardines, sardinella, brisling or sprats, mackerel (incl Indian, jack, or horse), seerfishes, jacks, crevalles, cobia, silver pomfrets, Pacific saury, scads, capelin, swordfish, Kawakawa, bonitos, marlins, sailfishes, spearfish",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.59,"Fish; dried, whether or not salted but not smoked, other than edible fish offal, n.e.c. in item no. 0305.5",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.61,"Fish; salted or in brine, not dried or smoked, other than edible fish offal, herrings (Clupea harengas, Clupea pallasii)",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.62,"Fish; salted or in brine, not dried or smoked, other than edible fish offal, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus)",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.63,"Fish; salted or in brine, not dried or smoked, other than edible fish offal, anchovies (Engrails spp.)",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.64,"Fish; salted or in brine, not dried or smoked, other than edible fish offal, tilapias, catfish, carp, eels, Nile perch, and snakeheads",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.69,"Fish; salted or in brine, not dried or smoked, other than edible fish offal, n.e.c. in item no. 0305.6",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.71,"Fish; edible offal, shark fins",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.72,"Fish; edible offal, fish heads, tails and maws",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0305.79,"Fish; edible offal, other than shark fins, fish heads, tails and maws",FISH,CONVERT,1.33
+Fish (Inland + Marine),Fish,—,0306.11,"Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.12,"Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.13,Shrimps and prawns,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.14,"Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.15,"Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.16,"Crustaceans; frozen, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.17,"Crustaceans; frozen, shrimps and prawns, excluding cold-water varieties, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.19,"Crustaceans; frozen, n.e.c. in item no. 0306.1, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.21,"Rock lobster and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.22,Lobsters (Homarus spp.),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.23,Shrimps and prawns,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.24,Crabs,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.25,Norway lobsters (Nephrops norvegicus),FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.26,"Cold-water shrimps and prawns (Pandalus spp., Crangon crangon)",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.27,Other shrimps and prawns,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.29,"Other, including flours, meals and pellets of crustaceans, fit for human consumption",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.31,"Crustaceans; live, fresh or chilled, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.32,"Crustaceans; live, fresh or chilled, lobsters (Homarus spp.), whether in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.33,"Crustaceans; live, fresh or chilled, crabs, whether in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.34,"Crustaceans; live, fresh or chilled, Norway lobsters (Nephrops norvegicus), in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.35,"Crustaceans; live, fresh or chilled, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.36,"Crustaceans; live, fresh or chilled, shrimps and prawns excluding cold-water varieties, in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.39,"Crustaceans; live, fresh or chilled, n.e.c. in item no. 0306.3, in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.91,"Crustaceans; rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.92,"Crustaceans; lobsters (Homarus spp.), smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.93,"Crustaceans; crabs, smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.94,"Crustaceans; Norway lobsters (Nephrops norvegicus), smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.95,"Crustaceans; shrimps and prawns, smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0306.99,"Crustaceans; smoked, whole, cooked or not, n.e.c. in item no. 0306.9, in shell or not",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.10,Oysters,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.11,"Molluscs; oysters, whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.12,"Molluscs; oysters, whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.19,"Molluscs; oysters, whether in shell or not, dried, salted or in brine, smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.21,"Molluscs; scallops and other molluscs of the family Pectinidae, whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.22,"Molluscs; scallops and other molluscs of the family Pectinidae, whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.29,"Molluscs; scallops and other molluscs of the family Pectinidae, whether in shell or not, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.31,"Molluscs; mussels (Mytilus spp., Perna spp.), whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.32,"Molluscs; mussels (Mytilus spp., Perna spp.), whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.39,"Molluscs; mussels (Mytilus spp., Perna spp.), whether in shell or not, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.41,"Live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.42,"Molluscs; cuttle fish and squid, whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.43,"Molluscs; cuttle fish and squid, whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.49,"Molluscs; cuttle fish and squid, whether in shell or not, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.51,"Molluscs; octopus (Octopus spp.), live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.52,"Molluscs; octopus (Octopus spp.), frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.59,"Molluscs; octopus (Octopus spp.), dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.60,"Molluscs; snails, other than sea snails, whether in shell or not, live, fresh, chilled, frozen, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.71,"Molluscs; clams, cockles and ark shells (families Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae and Veneridae), whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.72,"Molluscs; clams, cockles, ark shells (Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae and Veneridae), whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.79,"Molluscs; clams, cockle, ark shells (families Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae, Veneridae), whether in shell or not, dried, salted, in brine, smoked",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.81,"Molluscs; abalone (Haliotis spp.), whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.82,"Molluscs; stromboid conchs (Strombus spp.), whether in shell or not, live, fresh or chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.83,"Molluscs; abalone (Haliotis spp.), whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.84,"Molluscs; stromboid conchs (Strombus spp.), whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.87,"Molluscs; abalone (Haliotis spp.), whether in shell or not, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.88,"Molluscs; stromboid conchs (Strombus spp.), whether in shell or not, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.89,Other,FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.91,"Molluscs; n.e.c. in heading 0307, whether in shell or not, live or fresh, chilled",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.92,"Molluscs; n.e.c. in heading 0307, whether in shell or not, frozen",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,0307.99,"Molluscs; n.e.c. in heading 0307, whether in shell or not, dried, salted, in brine, or smoked, cooked or not before or during the smoking process",FISH,INCLUDE,1.00
+Fish (Inland + Marine),Fish,—,1604.00,Prepared/preserved fish (canned),FISH,EXCLUDE,—
+Ghee + Butter,Butter and Ghee,1811,0405.10,Butter,ANIMFAT,INCLUDE,1.00
+Ghee + Butter,Butter and Ghee,1811,0405.20,Dairy spreads,ANIMFAT,INCLUDE,1.00
+Ghee + Butter,Butter and Ghee,1811,0405.90,Other dairy fats/oils (ghee),ANIMFAT,INCLUDE,1.00
+No source found,Cream,876,0401.10,Milk/cream ≤1% fat,ANIMFAT,EXCLUDE,—
+No source found,Cream,876,0401.40,Heavy cream >6% fat,ANIMFAT,INCLUDE,1.00
+No source found,Cream,876,0402.21,Whole milk powder,ANIMFAT,EXCLUDE,—
+Raw animal fat,Cattle fat; unrendered;Sheep fat; unrendered,869;979,1502.00,"Fats of bovine animals, sheep or goats (pre-2012 code)",ANIMFAT,INCLUDE,1.00
+Raw animal fat,Cattle fat; unrendered,869,1502.10,"Tallow, bovine",ANIMFAT,INCLUDE,1.00
+Raw animal fat,Cattle fat; unrendered;Sheep fat; unrendered,869;979,1502.90,"Other fats, bovine/sheep/goat",ANIMFAT,INCLUDE,1.00
+Eggs (Farming + Desi),Eggs in shell,1062,0407.00,Birds' eggs in shell (pre-2012 code),EGGS,INCLUDE,1.00
+Eggs (Farming + Desi),Eggs in shell,1062,0407.11,Fertile eggs for incubation,EGGS,INCLUDE,1.00
+Eggs (Farming + Desi),Eggs in shell,1062,0407.21,"Fresh hens' eggs, in shell",EGGS,INCLUDE,1.00
+Eggs (Farming + Desi),Eggs in shell,1062,0407.29,Other eggs in shell,EGGS,INCLUDE,1.00
+Eggs (Farming + Desi),Eggs in shell,1062,0408.11,"Egg yolks, dried",EGGS,EXCLUDE,—
+Milk (Cattle + Buffalo),"Milk, fresh",882,0401.10,Milk/cream ≤1% fat,MILK,INCLUDE,1.00
+Milk (Cattle + Buffalo),"Milk, fresh",882,0401.20,Milk/cream 1-6% fat,MILK,INCLUDE,1.00
+Milk (Cattle + Buffalo),Skim milk and whey powder,898,0402.10,Skim milk powder,MILK,CONVERT,10.00
+Milk (Cattle + Buffalo),Whole milk powder,897,0402.21,Whole milk powder,MILK,CONVERT,7.70
+Milk (Cattle + Buffalo),—,—,0402.29,Other milk powder,MILK,CONVERT,8.00
+Milk (Cattle + Buffalo),"Milk, fresh",882,0403.10,Yoghurt,MILK,EXCLUDE,—
+Milk (Cattle + Buffalo),"Milk, fresh",882,0404.10,Whey,MILK,EXCLUDE,—
+Poultry Meat,Chicken meat,1058,0207.11,"Chickens, not cut, fresh/chilled",POULTRY,INCLUDE,1.00
+Poultry Meat,Chicken meat,1058,0207.12,"Chickens, not cut, frozen",POULTRY,INCLUDE,1.00
+Poultry Meat,Chicken meat,1058,0207.13,"Chicken cuts, fresh/chilled",POULTRY,INCLUDE,1.00
+Poultry Meat,Chicken meat,1058,0207.14,"Chicken cuts, frozen",POULTRY,INCLUDE,1.00
+Beef: Cattle + Buffalo,Beef and veal,867,0201.10,"Bovine carcasses, fresh/chilled",REDMEAT,INCLUDE,1.00
+Beef: Cattle + Buffalo,Meat of cattle boneless; fresh or chilled,870,0201.30,"Boneless bovine, fresh/chilled",REDMEAT,INCLUDE,1.00
+Beef: Cattle + Buffalo,Beef and veal,867,0202.10,"Bovine carcasses, frozen",REDMEAT,INCLUDE,1.00
+Beef: Cattle + Buffalo,Meat of cattle boneless; fresh or chilled,870,0202.30,"Boneless bovine, frozen",REDMEAT,INCLUDE,1.00
+Beef: Cattle + Buffalo,—,—,0102.90,"Live bovines, other than pure-bred (pre-2012 code)",REDMEAT,CONVERT,0.49
+Beef: Cattle + Buffalo,—,—,0102.29,Live cattle (excl. pure-bred breeding),REDMEAT,CONVERT,0.49
+Beef: Cattle + Buffalo,Beef and veal,867,0206.10,"Bovine offal, fresh/chilled",REDMEAT,EXCLUDE,—
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.10,"Lamb carcasses, fresh/chilled",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.22,"Sheep cuts, fresh/chilled",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.21,"Sheep (mutton) carcasses, fresh/chilled",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.23,"Sheep/lamb boneless cuts, fresh/chilled",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.42,"Sheep/lamb cuts with bone in, frozen",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.43,"Sheep/lamb boneless cuts, frozen",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.30,"Lamb carcasses, frozen",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Sheep/lamb,977,0204.41,"Sheep carcasses, frozen",REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,Goat meat,1017,0204.50,Goat meat,REDMEAT,INCLUDE,1.00
+Mutton: Sheep + Goats,—,—,0104.10,Live sheep,REDMEAT,CONVERT,0.50
+Mutton: Sheep + Goats,—,—,0104.20,Live goats,REDMEAT,CONVERT,0.46
+Prohibited,Pig meat,1035,0203.11,"Pig carcasses, fresh/chilled",PORK,ZERO/N/A,—
+Not tracked in ASP or FVC,Edible offal,868,0206.10,"Bovine offal, fresh/chilled",OTHER,INCLUDE,1.00
+Not tracked in ASP or FVC,Edible offal,868,0206.29,"Other bovine offal, frozen",OTHER,INCLUDE,1.00
+Not tracked in ASP or FVC,"Edible offal of sheep, fresh, chilled or frozen",978,0206.80,"Sheep/goat offal, fresh/chilled",OTHER,INCLUDE,1.00
+Not tracked in ASP or FVC,"Edible offal of sheep, fresh, chilled or frozen",978,0206.90,"Other offal, frozen",OTHER,INCLUDE,1.00
+Prohibited,Beer,—,2203.00,Beer made from malt,ALCOHOL,ZERO/N/A,—
+Prohibited,Wine,—,2204.21,Wine in containers ≤2L,ALCOHOL,ZERO/N/A,—
+Prohibited,Spirits,—,2208.20,Spirits from distillation,ALCOHOL,ZERO/N/A,—
+Linseed + Safflower + Castorseed,Oil of palm kernel,258,1513.21,"Palm kernel oil, crude",OLSOIL,INCLUDE,1.00
+Linseed + Safflower + Castorseed,Oil of palm kernel,258,1513.29,"Palm kernel oil, refined",OLSOIL,INCLUDE,1.00
