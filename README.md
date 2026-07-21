@@ -39,3 +39,11 @@ python3 scripts/generate_production_data_standardized.py --output FABLE_Pakistan
 ```
 
 Leave off `--output` and it'll save under the original filename automatically.
+
+### `report/` — the write-up
+
+- **`FABLE_Pakistan_Project_Report.pdf`** — the project report: what was built, how, and what
+  the results show.
+- **`FABLE_Pakistan_Decisions_Log.pdf`** — the full technical decision log behind the report,
+  covering every unit conversion, tariff-code fix, and conversion-factor source, with reasoning
+  and citations for each.
