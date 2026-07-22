@@ -25,7 +25,7 @@ a work-in-progress.
 - **`FABLE_FAOSTAT_Validation.xlsx`** — a sanity check: how our trade numbers compare against
   FAOSTAT's figures for the same years.
 
-### `scripts/` — how to regenerate everything
+### `excel_scripts/` — how to regenerate everything
 
 Each workbook has a matching script that can rebuild it from scratch, no setup required. The
 finished file is baked right into the script (as base64), so running it just writes the exact
@@ -35,7 +35,7 @@ no API keys, no extra packages needed.
 To regenerate a file, just run:
 
 ```bash
-python3 scripts/generate_production_data_standardized.py --output FABLE_Pakistan_Production_Data_Standardized.xlsx
+python3 excel_scripts/generate_production_data_standardized.py --output FABLE_Pakistan_Production_Data_Standardized.xlsx
 ```
 
 Leave off `--output` and it'll save under the original filename automatically.
@@ -55,7 +55,7 @@ than a multi-sheet workbook:
 
 ### `csv_scripts/` — how to regenerate the CSVs
 
-Same idea as `scripts/`: one script per CSV in `csvs/`, each with the finished file baked in as
+Same idea as `excel_scripts/`: one script per CSV in `csvs/`, each with the finished file baked in as
 base64, verified byte-for-byte with SHA256, no dependencies beyond the Python standard library.
 
 ```bash
