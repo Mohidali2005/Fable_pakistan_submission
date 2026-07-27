@@ -54,6 +54,8 @@ than a multi-sheet workbook:
 - **`FABLE_Trade_Production_Joined.csv`** (Deliverable #2) — the national production/trade
   balance table.
 - **`FABLE_Trade_Aggregated.csv`** — trade rolled up into FABLE-commodity totals.
+- **`FABLE_Trade_FiveYear_Averages.csv`** — the flat-table version of the 5-year-average trade
+  data, one row per commodity per 5-year window per flow (Export/Import).
 - **`FABLE_Pakistan_Trade_Raw.csv`** — the raw Comtrade pull, one row per HS code, year, and flow.
 
 ### `csv_scripts/` — how to regenerate the CSVs
