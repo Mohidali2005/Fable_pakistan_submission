@@ -20,6 +20,9 @@ a work-in-progress.
   processing — one sheet per HS code, imports and exports, 2000-2025.
 - **`FABLE_Trade_Aggregated.xlsx`** — the same trade data, but rolled up from individual HS
   codes into totals per FABLE commodity.
+- **`FABLE_Trade_FiveYear_Averages.xlsx`** — trade data as 5-year averages (2000-2005,
+  2005-2010, ... 2020-2025) instead of annual figures, since FABLE itself runs in 5-year
+  steps. One sheet per FABLE commodity, each with separate Export and Import tables.
 - **`FABLE_Pakistan_Trade_Concordance_Final.xlsx`** — the full working version of the
   concordance table, with all the HS-code-level detail.
 - **`FABLE_FAOSTAT_Validation.xlsx`** — a sanity check: how our trade numbers compare against
