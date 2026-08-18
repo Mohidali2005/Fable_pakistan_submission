@@ -1,7 +1,6 @@
 # FABLE-Pakistan — Submission
 
-This is where the final deliverables for the FABLE-Pakistan data pipeline live (SMP 2026,
-WIT-LUMS).
+This is where the final deliverables for the FABLE-Pakistan data pipeline live (WIT-LUMS).
 
 ## What's in here
 
